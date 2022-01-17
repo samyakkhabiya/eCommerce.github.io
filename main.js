@@ -176,8 +176,8 @@ const request = mailjet
   "Messages":[
     {
       "From": {
-        "Email": "aditiadisharma2@gmail.com",
-        "Name": "Aditi"
+        "Email": "samyakkhabiya123@gmail.com",
+        "Name": "samyak"
       },
       "To": [
         {
