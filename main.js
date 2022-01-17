@@ -176,7 +176,7 @@ const request = mailjet
   "Messages":[
     {
       "From": {
-        "Email": "samyakkhabiya123@gmail.com",
+        "Email": "aditiadisharma2@gmail.com",
         "Name": "samyak"
       },
       "To": [
@@ -240,7 +240,7 @@ const request = mailjet
     {
       "From": {
         "Email": "aditiadisharma2@gmail.com",
-        "Name": "Aditi"
+        "Name": "Samyak"
       },
       "To": [
         {
