@@ -79,7 +79,7 @@ app.post('/login',function(req,res){
         //console.log(req.body);
 		var account = req.body;
         for(var i = 0; i<finaldata.length; i++){
-            if(account.email == finaldata[i].email && account.password == finaldata[i].password){
+            if(account.email == finaldata[i].email && account.password == finaldata[i].password && account.is_verified==true){
                 flag++;
                 req.session.is_logged_in = true;
         //res.cookie("auth", req.signedCookies); //doubt (auth, what to send instead of token)
