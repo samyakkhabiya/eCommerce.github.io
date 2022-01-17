@@ -8,7 +8,7 @@ const mailjet_client = require ('node-mailjet')
 const cookieParser = require('cookie-parser');
 
 var mailjet = mailjet_client.connect
-('4b4169d4229638018327f815e6196f32', '485f817fc9e6c4fc21d4a095fb47e396')
+('2cc54a67c488401b11d0cd07f68677c6', '913713b40c5651429a8aeba370149583')
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '/views'));
@@ -176,7 +176,7 @@ const request = mailjet
   "Messages":[
     {
       "From": {
-        "Email": "aditiadisharma2@gmail.com",
+        "Email": "samyakkhabiya123@gmail.com",
         "Name": "samyak"
       },
       "To": [
@@ -239,7 +239,7 @@ const request = mailjet
   "Messages":[
     {
       "From": {
-        "Email": "aditiadisharma2@gmail.com",
+        "Email": "samyakkhabiya123@gmail.com",
         "Name": "Samyak"
       },
       "To": [
@@ -250,7 +250,7 @@ const request = mailjet
       ],
       "Subject": "ClickNBuy - Forgot Password",
       "TextPart": "My first Mailjet email",
-      "HTMLPart": "<h3>Hello "+customerName+", <br>Forgot your password? <br>No problem, let us get you a new one.<br><a href='https://final-3p34g85s1mkqwqxjgp.codequotient.in/change_password?verification_key="+key+"'>Reset Password</a></h3><br />P.S. If you did not make this request, you may ignore it<br>Happy Shopping at ClickNBuy :)<br>Regards<br>Samyak Khabiya.",
+      "HTMLPart": "<h3>Hello "+customerName+", <br>Forgot your password? <br>No problem, let us get you a new one.<br><a href='https://ecommerce43.herokuapp.com/change_password?verification_key="+key+"'>Reset Password</a></h3><br />P.S. If you did not make this request, you may ignore it<br>Happy Shopping at ClickNBuy :)<br>Regards<br>Samyak Khabiya.",
       "CustomID": "AppGettingStartedTest"
     }
   ]
