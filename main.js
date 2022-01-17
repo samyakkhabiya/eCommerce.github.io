@@ -187,7 +187,7 @@ const request = mailjet
       ],
       "Subject": "Greetings from ClickNBuy.",
       "TextPart": "My first Mailjet email",
-      "HTMLPart": "<h3>Dear "+customerName+", <br>Welcome to ClickNBuy ! <br>You're just one click away from completing the sign-up process.<br><a href='https://final-3p34g85s1mkqwqxjgp.codequotient.in/verify_account?verification_key="+key+"'>Verify your account</a></h3><br />Happy Shopping at ClickNBuy :)<br>Regards<br>Aditi Sharma",
+      "HTMLPart": "<h3>Dear "+customerName+", <br>Welcome to ClickNBuy ! <br>You're just one click away from completing the sign-up process.<br><a href='https://final-3p34g85s1mkqwqxjgp.codequotient.in/verify_account?verification_key="+key+"'>Verify your account</a></h3><br />Happy Shopping at ClickNBuy :)<br>Regards<br>Samyak Khabiya",
       "CustomID": "AppGettingStartedTest"
     }
   ]
@@ -250,7 +250,7 @@ const request = mailjet
       ],
       "Subject": "ClickNBuy - Forgot Password",
       "TextPart": "My first Mailjet email",
-      "HTMLPart": "<h3>Hello "+customerName+", <br>Forgot your password? <br>No problem, let us get you a new one.<br><a href='https://final-3p34g85s1mkqwqxjgp.codequotient.in/change_password?verification_key="+key+"'>Reset Password</a></h3><br />P.S. If you did not make this request, you may ignore it<br>Happy Shopping at ClickNBuy :)<br>Regards<br>Aditi Sharma.",
+      "HTMLPart": "<h3>Hello "+customerName+", <br>Forgot your password? <br>No problem, let us get you a new one.<br><a href='https://final-3p34g85s1mkqwqxjgp.codequotient.in/change_password?verification_key="+key+"'>Reset Password</a></h3><br />P.S. If you did not make this request, you may ignore it<br>Happy Shopping at ClickNBuy :)<br>Regards<br>Samyak Khabiya.",
       "CustomID": "AppGettingStartedTest"
     }
   ]
