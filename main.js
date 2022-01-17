@@ -187,7 +187,7 @@ const request = mailjet
       ],
       "Subject": "Greetings from ClickNBuy.",
       "TextPart": "My first Mailjet email",
-      "HTMLPart": "<h3>Dear "+customerName+", <br>Welcome to ClickNBuy ! <br>You're just one click away from completing the sign-up process.<br><a href='https://final-3p34g85s1mkqwqxjgp.codequotient.in/verify_account?verification_key="+key+"'>Verify your account</a></h3><br />Happy Shopping at ClickNBuy :)<br>Regards<br>Samyak Khabiya",
+      "HTMLPart": "<h3>Dear "+customerName+", <br>Welcome to ClickNBuy ! <br>You're just one click away from completing the sign-up process.<br><a href='https://ecommerce43.herokuapp.com/verify_account?verification_key="+key+"'>Verify your account</a></h3><br />Happy Shopping at ClickNBuy :)<br>Regards<br>Samyak Khabiya",
       "CustomID": "AppGettingStartedTest"
     }
   ]
