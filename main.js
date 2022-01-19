@@ -271,9 +271,10 @@ app.get('/change_password', (req,res) =>{
 
 app.post('/change_password', (req,res) =>{
     
-    var password=req.body.password;
-    var key= req.body.key;
+    var password=req.body.newpass;
+    var key= "hithisisthekey";
     console.log(key);
+    console.log(password);
 
     fs.readFile("./data.txt","utf-8", (err,f_data) => {
         f_data= JSON.parse(f_data);
